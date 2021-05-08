@@ -1,0 +1,20 @@
+.transition {
+  transition: all 1s;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background: black;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.triangle {
+  border-right: 150px;
+  border-left: 150px;
+  border-bottom: 259.81px;
+  background: black;
+}

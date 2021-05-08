@@ -3,35 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>電卓</title>
   </head>
   <body>
-    <h1 id="display">0</h1>
-    <div>
-      <button id="seven">7</button>
-      <button id="eight">8</button>
-      <button id="nine">9</button>
-    </div>
-    <div>
-      <button id="four">4</button>
-      <button id="five">5</button>
-      <button id="six">6</button>
-    </div>
-    <div>
-      <button id="one">1</button>
-      <button id="two">2</button>
-      <button id="three">3</button>
-    </div>
-    <div>
-      <button id="zero">0</button>
-    </div>
-    <div>
-      <button id="plus">+</button>
-      <button id="minus">-</button>
-      <button id="kake">x</button>
-      <button id="waru">÷</button>
-      <button id="equal">=</button>
-      <button id="ac">AC</button>
-    </div>
+    <input /><br />
+    <script src="main.js"></script>
+    <button id="n" onclick="append( '1' )">1</button>
+    <button id="n" onclick="append( '2' )">2</button>
+    <button id="n" onclick="append( '3' )">3</button>
+    <button id="n" onclick="append( '4' )">4</button>
+    <button id="n" onclick="append( '5' )">5</button><br />
+    <button id="n" onclick="append( '6' )">6</button>
+    <button id="n" onclick="append( '7' )">7</button>
+    <button id="n" onclick="append( '8' )">8</button>
+    <button id="n" onclick="append( '9' )">9</button>
+    <button id="n" onclick="append( '0' )">0</button><br />
+    <button id="n" onclick="append( '.' )">.</button>
+    <button id="p">+</button>
+    <button id="m">-</button>
+    <button id="mu">*</button>
+    <button id="d">/</button><br />
+    <button id="p">^</button>
+    <button id="s">√</button>
+
+    <button onclick="calc()">=</button>
+
+    <button onclick="update( '' ) ">CLR</button>
   </body>
 </html>
